@@ -1,5 +1,5 @@
 {
-  "name": "nova-net-2f4320",
+  "name": "bright-proxy-1d4860",
   "build": {
     "dockerfile": "Dockerfile",
     "context": "."
@@ -15,7 +15,7 @@
   "postAttachCommand": "gh codespace ports visibility 443:public -c $CODESPACE_NAME && bash /usr/local/bin/start.sh",
   "portsAttributes": {
     "443": {
-      "label": "nova-net-2f4320",
+      "label": "bright-proxy-1d4860",
       "protocol": "http",
       "onAutoForward": "silent"
     }
